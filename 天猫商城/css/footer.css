@@ -1,0 +1,78 @@
+body{
+	font-size: 12px;
+	font-family: Arial;
+}
+.footer{
+	margin: 0px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #e7e7e7;
+	
+}
+.footer_ensure{
+	margin-top: 24px;
+	margin-bottom: 24px;
+	text-align: center;
+}
+.footer_desc{
+	padding-top: 30px;
+	margin: 0px 20px;
+}
+.footer_desc div.descColumn{
+	width: 20%;
+	float: left;
+	padding-left: 100px;
+}
+.footer_desc div.descColumn span.descColumnTitle{
+	color: #646464;
+	font-weight: bold;
+	font-size: 16px;
+}
+.footer_desc a{
+	display: block;
+	padding-top: 3px;
+	color: #999;
+	text-decoration:none;
+}
+.footer_desc a:hover{
+	text-decoration: none;
+	color: #c40000;
+}
+.footer_last{
+	padding-top: 30px;
+	float: left;
+	font-size: 12px;
+}
+.footer_last .cateye{
+	margin-left: 180px;
+}
+.footer_last .copyright{
+	background-color: black;
+	border-top-style: solid;
+	border-top-style: 2px;
+	border-top-color: #c40000;
+	clear: both;
+}
+.copyright .white_link{
+	padding: 10px 0px;
+	margin-left: 150px;
+}
+.white_link a{
+	color: white;
+	padding: 0px 5px 0px 0px;
+}
+.white_link span .slash{
+	color: white;
+}
+.license{
+	margin-left: 150px;
+	padding-bottom: 30px;
+}
+.license span{
+	color: #7f7f7f;
+	padding: 0px 5px 0px 0px;
+}
+.copyRightYear{
+	margin: 10px 0px 0px 0px;
+	color:  #686868;
+}

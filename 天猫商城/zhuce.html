@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>天猫</title>
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script
+ 	 src="https://code.jquery.com/jquery-3.3.1.js"
+ 	 integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+ 	 crossorigin="anonymous"></script>
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="icon" href="img/favicon.ico">
+
+	<style>
+		div.registerDiv{
+			margin: 100px 20px;
+			text-align: center;
+		}
+		table.registerTable{
+			color: #3C3C3C;
+			font-size: 16px;
+			table-layout: fixed;
+			margin-top: 50px;
+		}
+		table.registerTable td{
+			padding: 10px 30px;
+		}
+		table.registerTable input{
+			border: 1px solid #DEDEDE;
+			width: 213px;
+			height: 36px;
+			font-size: 14px;
+		}
+		table.registerTable button{
+			width: 170px;
+			height: 36px;
+			border-radius: 2px;
+			color: white;
+			background-color: #C40000;
+			border-width: 0px;
+		}
+		td.registerTip{
+			font-weight: bold;
+		}
+		td.registerTableLeftTD{
+			width: 300px;
+			text-align: right;
+		}
+		td.registerTableRightTD{
+			width: 300px;
+			text-align: left;
+		}
+		td.registerButtonTD{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+<nav class="top">
+	<span>喵，欢迎来天猫</span>
+	<a href="denglu.html">请登录</a>
+	<a href="#nowhere">免费注册</a>
+
+	<span class="pull-right">
+		<a href="#nowhere">我的淘宝<span class="glyphicon glyphicon-triangle-bottom" style="font-size: 5px"></span></a>
+		<a href="#nowhere">
+			<span class="glyphicon glyphicon-shopping-cart redColor"></span>购物车<strong>0</strong>件
+		</a>
+		<a href="#nowhere">收藏夹<span class="glyphicon glyphicon-triangle-bottom" style="font-size: 5px"></span></a>
+		<span>|</span>
+		<a href="#nowhere"><span class="glyphicon glyphicon-phone redColor"></span>手机版</a>
+		<a href="#nowhere">淘宝网</a>
+		<a href="#nowhere">商家支持<span class="glyphicon glyphicon-triangle-bottom" style="font-size: 5px"></span></a>
+		<a href="#nowhere"><span class="glyphicon glyphicon-th-list redColor"></span>网站导航<span class="glyphicon glyphicon-triangle-bottom" style="font-size: 5px"></span></a>
+	</span>
+</nav>
+<div class="registerDiv">
+    <table align="center" class="registerTable">
+        <tbody><tr>
+            <td class="registerTip registerTableLeftTD">设置会员名</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="registerTableLeftTD">登陆名</td>
+            <td class="registerTableRightTD"><input placeholder="会员名一旦设置成功，无法修改" name="name" id="name"> </td>
+        </tr>
+        <tr>
+            <td class="registerTip registerTableLeftTD">设置登陆密码</td>
+            <td class="registerTableRightTD">登陆时验证，保护账号信息</td>
+        </tr>     
+        <tr>
+            <td class="registerTableLeftTD">登陆密码</td>
+            <td class="registerTableRightTD"><input type="password" placeholder="设置你的登陆密码" name="password" id="password"> </td>
+        </tr>
+        <tr>
+            <td class="registerTableLeftTD">密码确认</td>
+            <td class="registerTableRightTD"><input type="password" placeholder="请再次输入你的密码" id="repeatpassword"> </td>
+        </tr>
+        <tr>
+            <td class="registerButtonTD" colspan="2">
+                <a href="#nowhere"><button>提   交</button></a>
+            </td>
+        </tr>             
+    </tbody></table>
+</div>
+<div style="display: block;" class="footer" id="footer">
+	<div class="footer_ensure" id="footer_ensure">
+		<a href="#nowhere"><img src="img/ensure.png"></a>
+	</div>
+	<div class="footer_desc footer" id="footer_desc">
+		<div class="descColumn">
+			<span class="descColumnTitle">购物指南</span>
+			<a href="#nowhere">免费注册</a>
+			<a href="#nowhere">开通支付宝</a>
+			<a href="#nowhere">支付宝充值</a>
+		</div>
+		<div class="descColumn">
+			<span class="descColumnTitle">天猫保障</span>
+			<a href="#nowhere">发票保障</a>
+			<a href="#nowhere">售后规则</a>
+			<a href="#nowhere">缺货赔付</a>
+		</div>
+		<div class="descColumn">
+			<span class="descColumnTitle">支付方式</span>
+			<a href="#nowhere">快捷支付</a>
+			<a href="#nowhere">信用卡</a>
+			<a href="#nowhere">蚂蚁花呗</a>
+			<a href="#nowhere">货到付款</a>
+		</div>
+		<div class="descColumn">
+			<span class="descColumnTitle">商家服务</span>
+			<a href="#nowhere">商家入驻</a>
+			<a href="#nowhere">商家中心</a>
+			<a href="#nowhere">天猫智库</a>
+			<a href="#nowhere">天猫规则</a>
+			<a href="#nowhere">物流服务</a>
+			<a href="#nowhere">喵言喵语</a>
+			<a href="#nowhere">运营服务</a>
+		</div>
+		<div class="descColumn">
+			<span class="descColumnTitle">手机天猫</span>
+			<a href=""><img src="img/code.png"></a>
+		</div>
+	</div>
+</div>
+<div class="footer_last ">
+	<img src="img/cateye.png" class="cateye" id="cateye">
+	<div class="copyright" id="copyright">
+		<div class="white_link">
+			<a href="#nowhere">关于天猫</a>
+			<a href="#nowhere">帮助中心</a>
+			<a href="#nowhere">开发平台</a>
+			<a href="#nowhere">诚聘英才</a>
+			<a href="#nowhere">联系我们</a>
+			<a href="#nowhere">网站合作</a>
+			<a href="#nowhere">法律声明</a>
+			<a href="#nowhere">知识产权</a>
+			<a href="#nowhere">廉政举报</a>
+		</div>
+		<div class="white_link">
+			<a href="#nowhere">阿里巴巴集团</a><span class="slash">|</span>
+			<a href="#nowhere">淘宝网</a><span class="slash">|</span>
+			<a href="#nowhere">天猫</a><span class="slash">|</span>
+			<a href="#nowhere">聚划算</a><span class="slash">|</span>
+			<a href="#nowhere">全球速卖通</a><span class="slash">|</span>
+			<a href="#nowhere">阿里巴巴国际交易市场</a><span class="slash">|</span>
+			<a href="#nowhere">1688</a><span class="slash">|</span>
+			<a href="#nowhere">阿里妈妈</a><span class="slash">|</span>
+			<a href="#nowhere">飞猪</a><span class="slash">|</span>
+			<a href="#nowhere">阿里云</a><span class="slash">|</span>
+			<a href="#nowhere">阿里通信</a><span class="slash">|</span>
+			<a href="#nowhere">AliOS</a><span class="slash">|</span>
+			<a href="#nowhere">万网</a><span class="slash">|</span>
+			<a href="#nowhere">高德</a><span class="slash">|</span>
+			<a href="#nowhere">UC</a><span class="slash">|</span>
+			<a href="#nowhere">友盟</a><span class="slash">|</span>
+			<a href="#nowhere">虾米</a><span class="slash">|</span>
+			<a href="#nowhere">钉钉</a><span class="slash">|</span>
+			<a href="#nowhere">支付宝</a>
+		</div>
+		<div class="license">
+			<span>增值电信业务经营许可证： 浙B2-20110446</span>
+			<span>市场名称登记证：工商网市字3301004119号</span>
+			<span>出版物网络交易平台服务经营备案证： 新出发浙备字第001号</span>
+			<span>互联网违法和不良信息举报电话：0571-81683755 blxxjb@alibaba-inc.com</span>
+			<span>网络文化经营许可证：浙网文[2015]0295-065号</span></br>
+			<span>互联网医疗保健信息服务 审核同意书 浙卫网审【2014】6号 </span>
+			<span>互联网药品信息服务资质证书编号：浙-（经营性）-2012-0005</span></br>
+			<span>12318举报</span>
+		    <div class="copyRightYear">© 2003-2018 TMALL.COM 版权所有</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
